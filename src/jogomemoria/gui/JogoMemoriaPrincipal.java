@@ -60,6 +60,11 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         btnIniciar.setFont(new java.awt.Font("Noto Sans", 1, 12)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(21, 162, 30));
         btnIniciar.setText("JOGAR");
+        btnIniciar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIniciarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout pnlPrincipalLayout = new javax.swing.GroupLayout(pnlPrincipal);
         pnlPrincipal.setLayout(pnlPrincipalLayout);
@@ -72,7 +77,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                         .addComponent(lblNivel)
                         .addGap(33, 33, 33)
                         .addComponent(cmbIniciante)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 4, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 317, Short.MAX_VALUE)
                         .addComponent(cmbIntermediario, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(cmbProfissional, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -108,11 +113,11 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         pnlPrincipal2.setLayout(pnlPrincipal2Layout);
         pnlPrincipal2Layout.setHorizontalGroup(
             pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 521, Short.MAX_VALUE)
+            .addGap(0, 834, Short.MAX_VALUE)
         );
         pnlPrincipal2Layout.setVerticalGroup(
             pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 257, Short.MAX_VALUE)
+            .addGap(0, 378, Short.MAX_VALUE)
         );
 
         sppPrincipal.setRightComponent(pnlPrincipal2);
@@ -121,6 +126,13 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarActionPerformed
+        // TODO add your handling code here:
+        //Instanciar objeto referente ao painel do nível
+        TabuleiroNivelIniciante tni = new TabuleiroNivelIniciante();
+        // Substituir  o painel pnlPrincipal2 pelo objeto tni que é do mesmo tipo
+    }//GEN-LAST:event_btnIniciarActionPerformed
 
     /**
      * @param args the command line arguments
