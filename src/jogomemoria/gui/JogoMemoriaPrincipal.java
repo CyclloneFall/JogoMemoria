@@ -28,7 +28,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         jToggleButton1 = new javax.swing.JToggleButton();
-        jSplitPane1 = new javax.swing.JSplitPane();
+        sppPrincipal = new javax.swing.JSplitPane();
         pnlPrincipal = new javax.swing.JPanel();
         lblTempo = new javax.swing.JLabel();
         spnTempo = new javax.swing.JSpinner();
@@ -37,13 +37,13 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         cmbIntermediario = new javax.swing.JRadioButton();
         cmbProfissional = new javax.swing.JRadioButton();
         btnIniciar = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
+        pnlPrincipal2 = new javax.swing.JPanel();
 
         jToggleButton1.setText("jToggleButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
+        sppPrincipal.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
         lblTempo.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
         lblTempo.setText("Tempo limite de jogo");
@@ -102,22 +102,22 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jSplitPane1.setLeftComponent(pnlPrincipal);
+        sppPrincipal.setLeftComponent(pnlPrincipal);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout pnlPrincipal2Layout = new javax.swing.GroupLayout(pnlPrincipal2);
+        pnlPrincipal2.setLayout(pnlPrincipal2Layout);
+        pnlPrincipal2Layout.setHorizontalGroup(
+            pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 521, Short.MAX_VALUE)
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        pnlPrincipal2Layout.setVerticalGroup(
+            pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 257, Short.MAX_VALUE)
         );
 
-        jSplitPane1.setRightComponent(jPanel2);
+        sppPrincipal.setRightComponent(pnlPrincipal2);
 
-        getContentPane().add(jSplitPane1, java.awt.BorderLayout.CENTER);
+        getContentPane().add(sppPrincipal, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -162,12 +162,12 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private javax.swing.JRadioButton cmbIniciante;
     private javax.swing.JRadioButton cmbIntermediario;
     private javax.swing.JRadioButton cmbProfissional;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JLabel lblNivel;
     private javax.swing.JLabel lblTempo;
     private javax.swing.JPanel pnlPrincipal;
+    private javax.swing.JPanel pnlPrincipal2;
     private javax.swing.JSpinner spnTempo;
+    private javax.swing.JSplitPane sppPrincipal;
     // End of variables declaration//GEN-END:variables
 }
