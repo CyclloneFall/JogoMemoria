@@ -1,7 +1,7 @@
 package jogomemoria.control;
 /**
- *
- * @author Bárbara ee Gabriel 
+ * http://www.bfxr.net/
+ * @author Bárbara e Gabriel 
  */
 public class JogoMemoriaCtrl {
     
