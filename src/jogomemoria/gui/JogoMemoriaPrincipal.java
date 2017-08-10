@@ -30,13 +30,13 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         jToggleButton1 = new javax.swing.JToggleButton();
         jSplitPane1 = new javax.swing.JSplitPane();
         jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jSpinner1 = new javax.swing.JSpinner();
-        jLabel3 = new javax.swing.JLabel();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jButton1 = new javax.swing.JButton();
+        lblTempo = new javax.swing.JLabel();
+        spnTempo = new javax.swing.JSpinner();
+        lblNivel = new javax.swing.JLabel();
+        cmbIniciante = new javax.swing.JRadioButton();
+        cmbIntermediario = new javax.swing.JRadioButton();
+        cmbProfissional = new javax.swing.JRadioButton();
+        btnIniciar = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
 
         jToggleButton1.setText("jToggleButton1");
@@ -45,21 +45,21 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         jSplitPane1.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        jLabel2.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
-        jLabel2.setText("Tempo limite de jogo");
+        lblTempo.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
+        lblTempo.setText("Tempo limite de jogo");
 
-        jLabel3.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
-        jLabel3.setText("Escolha o nível");
+        lblNivel.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
+        lblNivel.setText("Escolha o nível");
 
-        jRadioButton4.setText("Iniciante");
+        cmbIniciante.setText("Iniciante");
 
-        jRadioButton2.setText("Intermedio");
+        cmbIntermediario.setText("Intermediário");
 
-        jRadioButton3.setText("Profissional");
+        cmbProfissional.setText("Profissional");
 
-        jButton1.setFont(new java.awt.Font("Noto Sans", 1, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(21, 162, 30));
-        jButton1.setText("JOGAR");
+        btnIniciar.setFont(new java.awt.Font("Noto Sans", 1, 12)); // NOI18N
+        btnIniciar.setForeground(new java.awt.Color(21, 162, 30));
+        btnIniciar.setText("JOGAR");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -69,20 +69,20 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel3)
+                        .addComponent(lblNivel)
                         .addGap(33, 33, 33)
-                        .addComponent(jRadioButton4)
+                        .addComponent(cmbIniciante)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 4, Short.MAX_VALUE)
-                        .addComponent(jRadioButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cmbIntermediario, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cmbProfissional, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton1)
+                        .addComponent(btnIniciar)
                         .addGap(8, 8, 8))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -90,15 +90,15 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(15, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jRadioButton3)
-                    .addComponent(jButton1))
+                    .addComponent(lblNivel)
+                    .addComponent(cmbIniciante)
+                    .addComponent(cmbIntermediario, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbProfissional)
+                    .addComponent(btnIniciar))
                 .addContainerGap())
         );
 
@@ -158,16 +158,16 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JButton btnIniciar;
+    private javax.swing.JRadioButton cmbIniciante;
+    private javax.swing.JRadioButton cmbIntermediario;
+    private javax.swing.JRadioButton cmbProfissional;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JSpinner jSpinner1;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JLabel lblNivel;
+    private javax.swing.JLabel lblTempo;
+    private javax.swing.JSpinner spnTempo;
     // End of variables declaration//GEN-END:variables
 }

@@ -56,21 +56,21 @@
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblNivel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                              <Component id="cmbIniciante" min="-2" max="-2" attributes="0"/>
                               <EmptySpace pref="4" max="32767" attributes="0"/>
-                              <Component id="jRadioButton2" min="-2" pref="102" max="-2" attributes="0"/>
+                              <Component id="cmbIntermediario" min="-2" pref="102" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jRadioButton3" min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="cmbProfissional" min="-2" pref="79" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnIniciar" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jLabel2" min="-2" pref="175" max="-2" attributes="0"/>
+                              <Component id="lblTempo" min="-2" pref="175" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jSpinner1" min="-2" pref="95" max="-2" attributes="0"/>
+                              <Component id="spnTempo" min="-2" pref="95" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -82,16 +82,16 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace pref="15" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel2" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
-                          <Component id="jSpinner1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lblTempo" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="spnTempo" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jRadioButton2" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                          <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbIniciante" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbIntermediario" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="cmbProfissional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnIniciar" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -99,7 +99,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel2">
+            <Component class="javax.swing.JLabel" name="lblTempo">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Liberation Serif" size="18" style="1"/>
@@ -107,9 +107,9 @@
                 <Property name="text" type="java.lang.String" value="Tempo limite de jogo"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JSpinner" name="jSpinner1">
+            <Component class="javax.swing.JSpinner" name="spnTempo">
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel3">
+            <Component class="javax.swing.JLabel" name="lblNivel">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Liberation Serif" size="18" style="1"/>
@@ -117,22 +117,22 @@
                 <Property name="text" type="java.lang.String" value="Escolha o n&#xed;vel"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+            <Component class="javax.swing.JRadioButton" name="cmbIniciante">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Iniciante"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+            <Component class="javax.swing.JRadioButton" name="cmbIntermediario">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Intermedio"/>
+                <Property name="text" type="java.lang.String" value="Intermedi&#xe1;rio"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+            <Component class="javax.swing.JRadioButton" name="cmbProfissional">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Profissional"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="btnIniciar">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Noto Sans" size="12" style="1"/>
