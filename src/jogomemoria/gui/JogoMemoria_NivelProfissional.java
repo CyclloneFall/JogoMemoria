@@ -87,21 +87,21 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
 
         lblImg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm14.png"))); // NOI18N
+        lblImg43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm7.png"))); // NOI18N
+        lblImg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm1.png"))); // NOI18N
+        lblImg40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm5.png"))); // NOI18N
+        lblImg52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm3.png"))); // NOI18N
+        lblImg28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm8.png"))); // NOI18N
+        lblImg51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
@@ -109,41 +109,41 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
 
         lblImg22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm2.png"))); // NOI18N
+        lblImg38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm5.png"))); // NOI18N
+        lblImg39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm15.png"))); // NOI18N
+        lblImg37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm17.png"))); // NOI18N
+        lblImg49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm18.png"))); // NOI18N
+        lblImg41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm8.png"))); // NOI18N
+        lblImg42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm10.png"))); // NOI18N
+        lblImg46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm9.png"))); // NOI18N
+        lblImg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm4.png"))); // NOI18N
+        lblImg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm13.png"))); // NOI18N
+        lblImg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm6.png"))); // NOI18N
+        lblImg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm6.png"))); // NOI18N
+        lblImg29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm13.png"))); // NOI18N
+        lblImg47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm2.png"))); // NOI18N
+        lblImg48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm1.png"))); // NOI18N
+        lblImg50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
@@ -165,31 +165,31 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
 
         lblImg16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm18.png"))); // NOI18N
+        lblImg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm8.png"))); // NOI18N
+        lblImg26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm12.png"))); // NOI18N
+        lblImg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm1.png"))); // NOI18N
+        lblImg44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm4.png"))); // NOI18N
+        lblImg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm12.png"))); // NOI18N
+        lblImg53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         lblImg18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm13.png"))); // NOI18N
+        lblImg27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm6.png"))); // NOI18N
+        lblImg36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm3.png"))); // NOI18N
+        lblImg45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
-        lblImg54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm2.png"))); // NOI18N
+        lblImg54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -263,7 +263,7 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
                             .addComponent(lblImg18)
                             .addComponent(lblImg27)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -280,29 +280,29 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
                                         .addComponent(lblImg33))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(lblImg37)
-                                        .addGap(26, 26, 26)
+                                        .addGap(18, 18, 18)
                                         .addComponent(lblImg38)
                                         .addGap(18, 18, 18)
                                         .addComponent(lblImg39)
-                                        .addGap(22, 22, 22)
+                                        .addGap(18, 18, 18)
                                         .addComponent(lblImg40)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGap(18, 18, 18)
                                         .addComponent(lblImg41)
                                         .addGap(18, 18, 18)
                                         .addComponent(lblImg42)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(lblImg43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblImg34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblImg43)
+                                    .addComponent(lblImg34, javax.swing.GroupLayout.Alignment.TRAILING)))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(lblImg46, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblImg47)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblImg48)
-                                .addGap(30, 30, 30)
+                                .addGap(18, 18, 18)
                                 .addComponent(lblImg49)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGap(18, 18, 18)
                                 .addComponent(lblImg50)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblImg51)
@@ -368,32 +368,33 @@ public class JogoMemoria_NivelProfissional extends javax.swing.JPanel {
                                     .addComponent(lblImg23)
                                     .addComponent(lblImg24)
                                     .addComponent(lblImg25))))
-                        .addGap(18, 34, Short.MAX_VALUE)
+                        .addGap(6, 6, 6)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblImg28)
+                            .addComponent(lblImg29)
+                            .addComponent(lblImg30)
+                            .addComponent(lblImg31)
+                            .addComponent(lblImg32)
+                            .addComponent(lblImg33)
+                            .addComponent(lblImg34)
+                            .addComponent(lblImg36)
+                            .addComponent(lblImg35))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(lblImg45))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lblImg33)
-                                    .addComponent(lblImg30)
-                                    .addComponent(lblImg31)
-                                    .addComponent(lblImg32)
-                                    .addComponent(lblImg29)
-                                    .addComponent(lblImg28)
-                                    .addComponent(lblImg35)
-                                    .addComponent(lblImg36))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblImg37)
-                                            .addComponent(lblImg41)
-                                            .addComponent(lblImg42))
-                                        .addComponent(lblImg38))
-                                    .addComponent(lblImg40)
                                     .addComponent(lblImg39)
+                                    .addComponent(lblImg38)
+                                    .addComponent(lblImg40)
+                                    .addComponent(lblImg41)
+                                    .addComponent(lblImg37)
+                                    .addComponent(lblImg42)
                                     .addComponent(lblImg43)
-                                    .addComponent(lblImg44)
-                                    .addComponent(lblImg45)))
-                            .addComponent(lblImg34))
+                                    .addComponent(lblImg44))
+                                .addGap(0, 7, Short.MAX_VALUE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
