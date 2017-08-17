@@ -11,6 +11,7 @@ package jogomemoria.gui;
  */
 public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
+    private Tabuleiro tb = new Tabuleiro();
     private TabuleiroNivelIniciante jpf = new TabuleiroNivelIniciante();
     private TabuleiroNivelIntermediario jpi = new TabuleiroNivelIntermediario();
     private TabuleiroNivelProfissional jpd = new TabuleiroNivelProfissional();
@@ -39,6 +40,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         pnlPrincipal2 = new javax.swing.JPanel();
         lblImgFundo = new javax.swing.JLabel();
 
@@ -47,6 +49,8 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         sppPrincipal.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
+
+        pnlPrincipal.setBackground(new java.awt.Color(204, 204, 204));
 
         lblTempo.setFont(new java.awt.Font("Liberation Serif", 1, 18)); // NOI18N
         lblTempo.setText("Tempo limite de jogo");
@@ -73,6 +77,10 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         jLabel3.setText("Difícil");
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 51, 51));
+        jButton1.setText("CANCELAR");
+
         javax.swing.GroupLayout pnlPrincipalLayout = new javax.swing.GroupLayout(pnlPrincipal);
         pnlPrincipal.setLayout(pnlPrincipalLayout);
         pnlPrincipalLayout.setHorizontalGroup(
@@ -91,23 +99,26 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                                 .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel3)))
-                        .addGap(37, 37, 37)
-                        .addComponent(btnIniciar))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                        .addComponent(jButton1))
                     .addGroup(pnlPrincipalLayout.createSequentialGroup()
                         .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(35, 35, 35)
-                        .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(73, Short.MAX_VALUE))
+                        .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnIniciar)))
+                .addGap(55, 55, 55))
         );
         pnlPrincipalLayout.setVerticalGroup(
             pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlPrincipalLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnIniciar))
+                .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlPrincipalLayout.createSequentialGroup()
-                        .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel1)
@@ -118,8 +129,8 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                             .addComponent(lblNivel)
                             .addComponent(sldNivel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(pnlPrincipalLayout.createSequentialGroup()
-                        .addComponent(btnIniciar)
-                        .addGap(8, 8, 8)))
+                        .addGap(16, 16, 16)
+                        .addComponent(jButton1)))
                 .addContainerGap())
         );
 
@@ -149,15 +160,17 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         //Instanciar objeto referente ao painel do nível
         if (sldNivel.getValue()==1){
-           sppPrincipal.setRightComponent(jpf);
+           tb.getSPPTabuleiro().setLeftComponent(jpf);
         }
         if(sldNivel.getValue()==2){
-            sppPrincipal.setRightComponent(jpi);
+          tb.getSPPTabuleiro().setLeftComponent(jpi);           
         }
          if(sldNivel.getValue()==3){
-            sppPrincipal.setRightComponent(jpd);
+          tb.getSPPTabuleiro().setLeftComponent(jpd);           
         }
     
+         sppPrincipal.setRightComponent(tb);
+         this.repaint();
         // Substituir  o painel pnlPrincipal2 pelo objeto tni que é do mesmo tipo
     }//GEN-LAST:event_btnIniciarActionPerformed
 
@@ -198,6 +211,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnIniciar;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

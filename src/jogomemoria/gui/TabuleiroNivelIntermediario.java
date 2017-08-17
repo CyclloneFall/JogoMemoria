@@ -64,216 +64,115 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
         lblImg35 = new javax.swing.JLabel();
         lblImg36 = new javax.swing.JLabel();
 
+        setLayout(new java.awt.GridLayout(6, 6));
+
         lblImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg1);
 
         lblImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg2);
 
         lblImg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg3);
 
         lblImg4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg4);
 
         lblImg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg5);
 
         lblImg6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg6);
 
         lblImg7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg7);
 
         lblImg8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg8);
 
         lblImg9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg9);
 
         lblImg10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg10);
 
         lblImg11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg11);
 
         lblImg12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg12);
 
         lblImg13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg13);
 
         lblImg14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg14);
 
         lblImg18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg18);
 
         lblImg16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg16);
 
         lblImg17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg17);
 
         lblImg15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg15);
 
         lblImg19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg19);
 
         lblImg20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg20);
 
         lblImg21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg21);
 
         lblImg22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg22);
 
         lblImg23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg23);
 
         lblImg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg24);
 
         lblImg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg25);
 
         lblImg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg31);
 
         lblImg26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg26);
 
         lblImg27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg27);
 
         lblImg28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg28);
 
         lblImg29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg29);
 
         lblImg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg30);
 
         lblImg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg32);
 
         lblImg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg33);
 
         lblImg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg34);
 
         lblImg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg35);
 
         lblImg36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblImg1)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg2)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg3)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg4)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblImg6))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblImg7)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg8)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg9)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg10)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblImg12))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblImg13)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg14)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg15)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg16)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg17)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblImg18))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblImg31)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg32)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg33)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg34)
-                        .addGap(18, 18, 18)
-                        .addComponent(lblImg35)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblImg36))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblImg19)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg20)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg21)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg22)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg23)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(lblImg24))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(lblImg25)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg26)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg27)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg28)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg29)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblImg30)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblImg6)
-                    .addComponent(lblImg5)
-                    .addComponent(lblImg4)
-                    .addComponent(lblImg3)
-                    .addComponent(lblImg2)
-                    .addComponent(lblImg1))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblImg7)
-                    .addComponent(lblImg8)
-                    .addComponent(lblImg9)
-                    .addComponent(lblImg10)
-                    .addComponent(lblImg11)
-                    .addComponent(lblImg12))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblImg13)
-                    .addComponent(lblImg14)
-                    .addComponent(lblImg18)
-                    .addComponent(lblImg16)
-                    .addComponent(lblImg17)
-                    .addComponent(lblImg15))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(lblImg19)
-                        .addComponent(lblImg20)
-                        .addComponent(lblImg22)
-                        .addComponent(lblImg23)
-                        .addComponent(lblImg24))
-                    .addComponent(lblImg21))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblImg25)
-                    .addComponent(lblImg26)
-                    .addComponent(lblImg27)
-                    .addComponent(lblImg28)
-                    .addComponent(lblImg29)
-                    .addComponent(lblImg30))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblImg31)
-                    .addComponent(lblImg32)
-                    .addComponent(lblImg33)
-                    .addComponent(lblImg34)
-                    .addComponent(lblImg35)
-                    .addComponent(lblImg36))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        add(lblImg36);
     }// </editor-fold>//GEN-END:initComponents
 
 
