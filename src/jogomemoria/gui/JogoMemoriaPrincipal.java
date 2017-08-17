@@ -38,6 +38,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         cmbProfissional = new javax.swing.JRadioButton();
         btnIniciar = new javax.swing.JButton();
         pnlPrincipal2 = new javax.swing.JPanel();
+        lblImgFundo = new javax.swing.JLabel();
 
         jToggleButton1.setText("jToggleButton1");
 
@@ -77,23 +78,23 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
                         .addComponent(lblNivel)
                         .addGap(33, 33, 33)
                         .addComponent(cmbIniciante)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 317, Short.MAX_VALUE)
-                        .addComponent(cmbIntermediario, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cmbProfissional, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
+                        .addComponent(cmbIntermediario, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(cmbProfissional, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 327, Short.MAX_VALUE)
                         .addComponent(btnIniciar)
                         .addGap(8, 8, 8))
                     .addGroup(pnlPrincipalLayout.createSequentialGroup()
-                        .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 193, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(35, 35, 35)
                         .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         pnlPrincipalLayout.setVerticalGroup(
             pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlPrincipalLayout.createSequentialGroup()
-                .addContainerGap(15, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(pnlPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(spnTempo, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -109,15 +110,17 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
 
         sppPrincipal.setLeftComponent(pnlPrincipal);
 
+        lblImgFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmfundo.png"))); // NOI18N
+
         javax.swing.GroupLayout pnlPrincipal2Layout = new javax.swing.GroupLayout(pnlPrincipal2);
         pnlPrincipal2.setLayout(pnlPrincipal2Layout);
         pnlPrincipal2Layout.setHorizontalGroup(
             pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 834, Short.MAX_VALUE)
+            .addComponent(lblImgFundo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         pnlPrincipal2Layout.setVerticalGroup(
             pnlPrincipal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 378, Short.MAX_VALUE)
+            .addComponent(lblImgFundo, javax.swing.GroupLayout.DEFAULT_SIZE, 378, Short.MAX_VALUE)
         );
 
         sppPrincipal.setRightComponent(pnlPrincipal2);
@@ -175,6 +178,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private javax.swing.JRadioButton cmbIntermediario;
     private javax.swing.JRadioButton cmbProfissional;
     private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JLabel lblImgFundo;
     private javax.swing.JLabel lblNivel;
     private javax.swing.JLabel lblTempo;
     private javax.swing.JPanel pnlPrincipal;
