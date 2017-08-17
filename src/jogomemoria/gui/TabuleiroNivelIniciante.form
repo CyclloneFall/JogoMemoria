@@ -118,6 +118,9 @@
           <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblImg1MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg2">
       <Properties>
@@ -125,6 +128,9 @@
           <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lblImg2MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg3">
       <Properties>

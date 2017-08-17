@@ -45,8 +45,18 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
         lblImg16 = new javax.swing.JLabel();
 
         lblImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
+        lblImg1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg1MouseClicked(evt);
+            }
+        });
 
         lblImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
+        lblImg2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                lblImg2MouseClicked(evt);
+            }
+        });
 
         lblImg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jmcartavirada.png"))); // NOI18N
 
@@ -153,6 +163,14 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void lblImg1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg1MouseClicked
+
+    private void lblImg2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg2MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lblImg2MouseClicked
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
