@@ -175,252 +175,252 @@
     <Component class="javax.swing.JLabel" name="lblImg1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm9.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm12.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm11.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm14.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm14.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm7.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm1.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm11.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm5.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg10">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm17.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg11">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm3.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm8.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg13">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm10.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg14">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm12.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg18">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm18.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg16">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm4.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg17">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm2.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm5.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg19">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm15.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg20">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm16.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg21">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm17.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg22">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm16.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg23">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm18.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg24">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm8.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg25">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm15.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg31">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm10.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg26">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm9.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg27">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm4.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg28">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm13.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg29">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm6.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg30">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm6.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg32">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm13.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg33">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm2.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg34">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm3.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg35">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm1.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblImg36">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/jogomemoria/gui/img/jm7.png"/>
+          <Image iconType="3" name="/jogomemoria/gui/img/jmcartavirada.png"/>
         </Property>
       </Properties>
     </Component>
