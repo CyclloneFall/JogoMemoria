@@ -32,31 +32,78 @@ public class Tabuleiro extends javax.swing.JPanel {
         sppTabuleiro = new javax.swing.JSplitPane();
         tabuleiroNivelIniciante1 = new jogomemoria.gui.TabuleiroNivelIniciante();
         infos1 = new jogomemoria.gui.Infos();
-        jLabel1 = new javax.swing.JLabel();
+        lblRecordes = new javax.swing.JLabel();
+        lblImgOuro = new javax.swing.JLabel();
+        lblImgPrata = new javax.swing.JLabel();
+        lblImgBronze = new javax.swing.JLabel();
+        lblRecordeOuro = new javax.swing.JLabel();
+        lblRecordePrata = new javax.swing.JLabel();
+        lblRecordeBronze = new javax.swing.JLabel();
 
         setLayout(new java.awt.BorderLayout());
 
         sppTabuleiro.setDividerLocation(600);
         sppTabuleiro.setLeftComponent(tabuleiroNivelIniciante1);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("RECORDES");
+        lblRecordes.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        lblRecordes.setText("RECORDES");
+
+        lblImgOuro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/Ouro.png"))); // NOI18N
+        lblImgOuro.setText("jLabel2");
+
+        lblImgPrata.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/prata.png"))); // NOI18N
+        lblImgPrata.setText("jLabel2");
+
+        lblImgBronze.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/bronze.png"))); // NOI18N
+
+        lblRecordeOuro.setText("jLabel1");
+
+        lblRecordePrata.setText("jLabel1");
+
+        lblRecordeBronze.setText("jLabel1");
 
         javax.swing.GroupLayout infos1Layout = new javax.swing.GroupLayout(infos1);
         infos1.setLayout(infos1Layout);
         infos1Layout.setHorizontalGroup(
             infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(infos1Layout.createSequentialGroup()
-                .addGap(45, 45, 45)
-                .addComponent(jLabel1)
-                .addContainerGap(44, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(infos1Layout.createSequentialGroup()
+                        .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lblImgPrata, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblImgOuro, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblImgBronze, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(35, 35, 35)
+                        .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(lblRecordeOuro, javax.swing.GroupLayout.DEFAULT_SIZE, 63, Short.MAX_VALUE)
+                            .addComponent(lblRecordePrata, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lblRecordeBronze)))
+                    .addComponent(lblRecordes))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         infos1Layout.setVerticalGroup(
             infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(infos1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(305, Short.MAX_VALUE))
+                .addComponent(lblRecordes, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblImgOuro, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblRecordeOuro, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblImgPrata)
+                    .addComponent(lblRecordePrata, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(infos1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lblImgBronze)
+                        .addContainerGap(18, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, infos1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(lblRecordeBronze)
+                        .addGap(60, 60, 60))))
         );
 
         sppTabuleiro.setRightComponent(infos1);
@@ -70,7 +117,13 @@ public class Tabuleiro extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private jogomemoria.gui.Infos infos1;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel lblImgBronze;
+    private javax.swing.JLabel lblImgOuro;
+    private javax.swing.JLabel lblImgPrata;
+    private javax.swing.JLabel lblRecordeBronze;
+    private javax.swing.JLabel lblRecordeOuro;
+    private javax.swing.JLabel lblRecordePrata;
+    private javax.swing.JLabel lblRecordes;
     private javax.swing.JSplitPane sppTabuleiro;
     private jogomemoria.gui.TabuleiroNivelIniciante tabuleiroNivelIniciante1;
     // End of variables declaration//GEN-END:variables
