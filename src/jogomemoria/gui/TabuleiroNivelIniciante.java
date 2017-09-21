@@ -27,10 +27,10 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
      */
     @SuppressWarnings("unchecked")
     
-    public void trocaImg(){
-        ImageIcon novaImg = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm1.png"));
-        lblImg1.setIcon(novaImg);
-    }
+    //public void trocaImg(){
+      //  ImageIcon novaImg = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm1.png"));
+        //lblImg1.setIcon(novaImg);
+    //}
     
     
     
@@ -187,7 +187,7 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void lblImg1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg1MouseClicked
-        trocaImg();
+       // trocaImg();
     }//GEN-LAST:event_lblImg1MouseClicked
 
     private void lblImg2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg2MouseClicked

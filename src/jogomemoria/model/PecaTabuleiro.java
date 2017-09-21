@@ -7,9 +7,12 @@ package jogomemoria.model;
 
 
 public class PecaTabuleiro {
-    private int numero;
-  private int idImagem;
-
+  private int numero; //saber qual peça é 
+  private int idImagem; // Cada peça tem a sua imagem
+  private int linha;
+  private int coluna;
+  private boolean virado;
+  
     public int getNumero() {
         return numero;
     }
@@ -25,8 +28,7 @@ public class PecaTabuleiro {
     public void setIdImagem(int idImagem) {
         this.idImagem = idImagem;
     }
-    private int linha;
-    private int coluna;
+ 
 
     /**
      * @return the linha
@@ -54,5 +56,19 @@ public class PecaTabuleiro {
      */
     public void setColuna(int coluna) {
         this.coluna = coluna;
+    }
+
+    /**
+     * @return the virado
+     */
+    public boolean isVirado() {
+        return virado;
+    }
+
+    /**
+     * @param virado the virado to set
+     */
+    public void setVirado(boolean virado) {
+        this.virado = virado;
     }
 }
