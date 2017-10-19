@@ -176,8 +176,8 @@ public class JogoMemoriaCtrl {
                 }
             }
             if(!achou){
-                imgsPartida[qtdImgsPartida]=i;
-                qtdImgsPartida++;
+                imgsPartida[qtdeSorteadas]=i;
+                qtdeSorteadas++;
             }
             
         }
@@ -245,8 +245,8 @@ public class JogoMemoriaCtrl {
                 int c;
                 boolean sucesso = false;
                 while(!sucesso){
-                    l = obterNumSorteado(0, linhaMax);
-                    c = obterNumSorteado(0, colunaMax);
+                    l = obterNumSorteado(0, linhaMax-1);
+                    c = obterNumSorteado(0, colunaMax-1);
                     if (getTabuleiro()[l][c]==null){
                         p.setLinha(l);
                         p.setColuna(c);
