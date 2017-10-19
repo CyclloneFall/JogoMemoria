@@ -27,12 +27,12 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblImg1 = new javax.swing.JLabel();
-        lblImg2 = new javax.swing.JLabel();
-        lblImg3 = new javax.swing.JLabel();
-        lblImg4 = new javax.swing.JLabel();
-        lblImg5 = new javax.swing.JLabel();
-        lblImg6 = new javax.swing.JLabel();
+        lblImg00 = new javax.swing.JLabel();
+        lblImg01 = new javax.swing.JLabel();
+        lblImg02 = new javax.swing.JLabel();
+        lblImg03 = new javax.swing.JLabel();
+        lblImg04 = new javax.swing.JLabel();
+        lblImg05 = new javax.swing.JLabel();
         lblImg7 = new javax.swing.JLabel();
         lblImg8 = new javax.swing.JLabel();
         lblImg9 = new javax.swing.JLabel();
@@ -51,38 +51,38 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
         lblImg22 = new javax.swing.JLabel();
         lblImg23 = new javax.swing.JLabel();
         lblImg24 = new javax.swing.JLabel();
-        lblImg25 = new javax.swing.JLabel();
-        lblImg31 = new javax.swing.JLabel();
-        lblImg26 = new javax.swing.JLabel();
-        lblImg27 = new javax.swing.JLabel();
-        lblImg28 = new javax.swing.JLabel();
-        lblImg29 = new javax.swing.JLabel();
-        lblImg30 = new javax.swing.JLabel();
-        lblImg32 = new javax.swing.JLabel();
-        lblImg33 = new javax.swing.JLabel();
-        lblImg34 = new javax.swing.JLabel();
-        lblImg35 = new javax.swing.JLabel();
-        lblImg36 = new javax.swing.JLabel();
+        lblImg40 = new javax.swing.JLabel();
+        lblImg41 = new javax.swing.JLabel();
+        lblImg42 = new javax.swing.JLabel();
+        lblImg43 = new javax.swing.JLabel();
+        lblImg44 = new javax.swing.JLabel();
+        lblImg45 = new javax.swing.JLabel();
+        lblImg50 = new javax.swing.JLabel();
+        lblImg51 = new javax.swing.JLabel();
+        lblImg52 = new javax.swing.JLabel();
+        lblImg53 = new javax.swing.JLabel();
+        lblImg54 = new javax.swing.JLabel();
+        lblImg55 = new javax.swing.JLabel();
 
         setLayout(new java.awt.GridLayout(6, 6));
 
-        lblImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg1);
+        lblImg00.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg00);
 
-        lblImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg2);
+        lblImg01.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg01);
 
-        lblImg3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg3);
+        lblImg02.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg02);
 
-        lblImg4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg4);
+        lblImg03.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg03);
 
-        lblImg5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg5);
+        lblImg04.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg04);
 
-        lblImg6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg6);
+        lblImg05.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg05);
 
         lblImg7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         add(lblImg7);
@@ -138,46 +138,51 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
         lblImg24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
         add(lblImg24);
 
-        lblImg25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg25);
+        lblImg40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg40);
 
-        lblImg31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg31);
+        lblImg41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg41);
 
-        lblImg26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg26);
+        lblImg42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg42);
 
-        lblImg27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg27);
+        lblImg43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg43);
 
-        lblImg28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg28);
+        lblImg44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg44);
 
-        lblImg29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg29);
+        lblImg45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg45);
 
-        lblImg30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg30);
+        lblImg50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg50);
 
-        lblImg32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg32);
+        lblImg51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg51);
 
-        lblImg33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg33);
+        lblImg52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg52);
 
-        lblImg34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg34);
+        lblImg53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg53);
 
-        lblImg35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg35);
+        lblImg54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg54);
 
-        lblImg36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
-        add(lblImg36);
+        lblImg55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jogomemoria/gui/img/jm0.png"))); // NOI18N
+        add(lblImg55);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel lblImg1;
+    private javax.swing.JLabel lblImg00;
+    private javax.swing.JLabel lblImg01;
+    private javax.swing.JLabel lblImg02;
+    private javax.swing.JLabel lblImg03;
+    private javax.swing.JLabel lblImg04;
+    private javax.swing.JLabel lblImg05;
     private javax.swing.JLabel lblImg10;
     private javax.swing.JLabel lblImg11;
     private javax.swing.JLabel lblImg12;
@@ -188,28 +193,23 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
     private javax.swing.JLabel lblImg17;
     private javax.swing.JLabel lblImg18;
     private javax.swing.JLabel lblImg19;
-    private javax.swing.JLabel lblImg2;
     private javax.swing.JLabel lblImg20;
     private javax.swing.JLabel lblImg21;
     private javax.swing.JLabel lblImg22;
     private javax.swing.JLabel lblImg23;
     private javax.swing.JLabel lblImg24;
-    private javax.swing.JLabel lblImg25;
-    private javax.swing.JLabel lblImg26;
-    private javax.swing.JLabel lblImg27;
-    private javax.swing.JLabel lblImg28;
-    private javax.swing.JLabel lblImg29;
-    private javax.swing.JLabel lblImg3;
-    private javax.swing.JLabel lblImg30;
-    private javax.swing.JLabel lblImg31;
-    private javax.swing.JLabel lblImg32;
-    private javax.swing.JLabel lblImg33;
-    private javax.swing.JLabel lblImg34;
-    private javax.swing.JLabel lblImg35;
-    private javax.swing.JLabel lblImg36;
-    private javax.swing.JLabel lblImg4;
-    private javax.swing.JLabel lblImg5;
-    private javax.swing.JLabel lblImg6;
+    private javax.swing.JLabel lblImg40;
+    private javax.swing.JLabel lblImg41;
+    private javax.swing.JLabel lblImg42;
+    private javax.swing.JLabel lblImg43;
+    private javax.swing.JLabel lblImg44;
+    private javax.swing.JLabel lblImg45;
+    private javax.swing.JLabel lblImg50;
+    private javax.swing.JLabel lblImg51;
+    private javax.swing.JLabel lblImg52;
+    private javax.swing.JLabel lblImg53;
+    private javax.swing.JLabel lblImg54;
+    private javax.swing.JLabel lblImg55;
     private javax.swing.JLabel lblImg7;
     private javax.swing.JLabel lblImg8;
     private javax.swing.JLabel lblImg9;

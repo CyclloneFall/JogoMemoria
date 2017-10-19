@@ -5,7 +5,9 @@
  */
 package jogomemoria.gui;
 
+import javax.swing.ImageIcon;
 import jogomemoria.control.JogoMemoriaCtrl;
+import jogomemoria.model.PecaTabuleiro;
 
 /**
  *
@@ -17,10 +19,11 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
     private TabuleiroNivelIniciante jpf = new TabuleiroNivelIniciante();
     private TabuleiroNivelIntermediario jpi = new TabuleiroNivelIntermediario();
     private TabuleiroNivelProfissional jpd = new TabuleiroNivelProfissional();
-    private JogoMemoriaCtrl controle = new JogoMemoriaCtrl();
+    private JogoMemoriaCtrl controle;
     
     public JogoMemoriaPrincipal() {
         initComponents();
+        controle = new JogoMemoriaCtrl();
     }
 
     /**
@@ -165,22 +168,165 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         int n = sldNivel.getValue();
         int t = ((Integer)spnTempo.getValue()).intValue();
         controle.iniciarPartida(n, t);
-        if (sldNivel.getValue()==1){
-           //preencher tabuleiro gráfico
+        mostrarTabuleiro(true);
+
+        // Substituir  o painel pnlPrincipal2 pelo objeto tni que é do mesmo tipo
+    }//GEN-LAST:event_btnIniciarActionPerformed
+    
+    public void mostrarTabuleiro(boolean inicioJogo){
+        PecaTabuleiro pctb[][]= controle.getTabuleiro();
+        int idImg;
+
+        ImageIcon imgDuvida = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm0.png"));
+        
+        
+        if (controle.getNivelAtual()== controle.FACIL){
+            
+            if (inicioJogo || pctb[0][0].isVirado()) {
+                idImg = pctb[0][0].getIdImagem();
+                ImageIcon img00 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg00()).setIcon(img00);
+            } else {
+                (jpf.getLblImg00()).setIcon(imgDuvida);
+            }
+                        
+            if (!inicioJogo && pctb[0][1].isVirado()) {
+                idImg = pctb[0][1].getIdImagem();
+                ImageIcon img01 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg01()).setIcon(img01);
+            } else {
+                (jpf.getLblImg01()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[0][2].isVirado()) {
+                idImg = pctb[0][2].getIdImagem();
+                ImageIcon img02 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg02()).setIcon(img02);
+            } else {
+                (jpf.getLblImg02()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[0][3].isVirado()) {
+                idImg = pctb[0][3].getIdImagem();
+                ImageIcon img03 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg03()).setIcon(img03);
+            } else {
+                (jpf.getLblImg03()).setIcon(imgDuvida);
+            }
+            
+             if (!inicioJogo && pctb[1][0].isVirado()) {
+                idImg = pctb[1][0].getIdImagem();
+                ImageIcon img10 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg10()).setIcon(img10);
+            } else {
+                (jpf.getLblImg10()).setIcon(imgDuvida);
+            }
+             
+              if (!inicioJogo && pctb[1][1].isVirado()) {
+                idImg = pctb[1][1].getIdImagem();
+                ImageIcon img11 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg11()).setIcon(img11);
+            } else {
+                (jpf.getLblImg11()).setIcon(imgDuvida);
+            }
+              
+             if (!inicioJogo && pctb[1][2].isVirado()) {
+                idImg = pctb[1][2].getIdImagem();
+                ImageIcon img12 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg12()).setIcon(img12);
+            } else {
+                (jpf.getLblImg12()).setIcon(imgDuvida);
+            }
+            
+             if (!inicioJogo && pctb[1][3].isVirado()) {
+                idImg = pctb[1][3].getIdImagem();
+                ImageIcon img13 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg13()).setIcon(img13);
+            } else {
+                (jpf.getLblImg13()).setIcon(imgDuvida);
+            } 
+             
+            if (!inicioJogo && pctb[2][0].isVirado()) {
+                idImg = pctb[2][0].getIdImagem();
+                ImageIcon img20 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg20()).setIcon(img20);
+            } else {
+                (jpf.getLblImg20()).setIcon(imgDuvida);
+            }
+            
+             if (!inicioJogo && pctb[2][1].isVirado()) {
+                idImg = pctb[2][1].getIdImagem();
+                ImageIcon img21 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg21()).setIcon(img21);
+            } else {
+                (jpf.getLblImg21()).setIcon(imgDuvida);
+            }
+             
+            if (!inicioJogo && pctb[2][2].isVirado()) {
+                idImg = pctb[2][2].getIdImagem();
+                ImageIcon img22 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg22()).setIcon(img22);
+            } else {
+                (jpf.getLblImg22()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[2][3].isVirado()) {
+                idImg = pctb[2][3].getIdImagem();
+                ImageIcon img23 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg23()).setIcon(img23);
+            } else {
+                (jpf.getLblImg23()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[3][0].isVirado()) {
+                idImg = pctb[3][0].getIdImagem();
+                ImageIcon img30 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg30()).setIcon(img30);
+            } else {
+                (jpf.getLblImg30()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[3][1].isVirado()) {
+                idImg = pctb[3][1].getIdImagem();
+                ImageIcon img31 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg31()).setIcon(img31);
+            } else {
+                (jpf.getLblImg31()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[3][2].isVirado()) {
+                idImg = pctb[3][2].getIdImagem();
+                ImageIcon img32 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg32()).setIcon(img32);
+            } else {
+                (jpf.getLblImg32()).setIcon(imgDuvida);
+            }
+            
+            if (!inicioJogo && pctb[3][3].isVirado()) {
+                idImg = pctb[3][3].getIdImagem();
+                ImageIcon img33 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+                (jpf.getLblImg33()).setIcon(img33);
+            } else {
+                (jpf.getLblImg33()).setIcon(imgDuvida);
+            }
+            
            tb.getSPPTabuleiro().setLeftComponent(jpf);
         }
-        if(sldNivel.getValue()==2){
+        
+        
+        
+        
+        
+        if(controle.getNivelAtual()== controle.INTERMEDIARIO){
           tb.getSPPTabuleiro().setLeftComponent(jpi);           
         }
-         if(sldNivel.getValue()==3){
+         if(controle.getNivelAtual()== controle.DIFICIL){
           tb.getSPPTabuleiro().setLeftComponent(jpd);           
         }
     
          sppPrincipal.setRightComponent(tb);
          this.repaint();
-        // Substituir  o painel pnlPrincipal2 pelo objeto tni que é do mesmo tipo
-    }//GEN-LAST:event_btnIniciarActionPerformed
-
+    }
     /**
      * @param args the command line arguments
      */
