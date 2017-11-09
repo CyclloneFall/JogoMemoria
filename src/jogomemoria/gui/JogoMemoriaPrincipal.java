@@ -182,7 +182,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         
         if (controle.getNivelAtual()== controle.FACIL){
             
-            if (inicioJogo || pctb[0][0].isVirado()) {
+            if (inicioJogo && pctb[0][0].isVirado()) {
                 idImg = pctb[0][0].getIdImagem();
                 ImageIcon img00 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
                 (jpf.getLblImg00()).setIcon(img00);
