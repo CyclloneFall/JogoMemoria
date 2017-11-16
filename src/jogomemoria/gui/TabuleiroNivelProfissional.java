@@ -5,12 +5,15 @@
  */
 package jogomemoria.gui;
 
+import jogomemoria.control.JogoMemoriaCtrl;
+
 /**
  *
  * @author Aluno
  */
 public class TabuleiroNivelProfissional extends javax.swing.JPanel {
-
+    
+private JogoMemoriaCtrl controle;
     /**
      * Creates new form JogoMemoria_NivelProfissional
      */

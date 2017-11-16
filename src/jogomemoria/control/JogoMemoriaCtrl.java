@@ -483,6 +483,13 @@ public class JogoMemoriaCtrl {
     public void setTabuleiro(PecaTabuleiro[][] tabuleiro) {
         this.tabuleiro = tabuleiro;
     }
+    
+    
+    public PecaTabuleiro obterPecaTabuleiro(int linha, int coluna) {
+        return this.tabuleiro[linha][coluna];
+    }
+    
+    
 }
 
 

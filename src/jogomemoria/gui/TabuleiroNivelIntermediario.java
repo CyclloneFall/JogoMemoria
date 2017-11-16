@@ -5,12 +5,18 @@
  */
 package jogomemoria.gui;
 
+import jogomemoria.control.JogoMemoriaCtrl;
+
 /**
  *
  * @author Aluno
  */
 public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
 
+    
+    private JogoMemoriaCtrl controle;
+    
+    
     /**
      * Creates new form JogoMemoriaJPanel2
      */
@@ -717,5 +723,19 @@ public class TabuleiroNivelIntermediario extends javax.swing.JPanel {
      */
     public void setLblImg55(javax.swing.JLabel lblImg55) {
         this.lblImg55 = lblImg55;
+    }
+
+    /**
+     * @return the controle
+     */
+    public JogoMemoriaCtrl getControle() {
+        return controle;
+    }
+
+    /**
+     * @param controle the controle to set
+     */
+    public void setControle(JogoMemoriaCtrl controle) {
+        this.controle = controle;
     }
 }
