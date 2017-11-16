@@ -13,9 +13,9 @@ import jogomemoria.model.PecaTabuleiro;
 public class JogoMemoriaCtrl {
     
     /* ----------------------- CONSTANTES -----------------------*/
-    public static final int FACIL = 0;  //Referencia ao nível Fácil 
-    public static final int INTERMEDIARIO = 1; //Referencia ao nível Intermediário 
-    public static final int DIFICIL = 2; //Referencia ao nível Difícil    
+    public static final int FACIL = 1;  //Referencia ao nível Fácil 
+    public static final int INTERMEDIARIO = 2; //Referencia ao nível Intermediário 
+    public static final int DIFICIL = 3; //Referencia ao nível Difícil    
     public static final int OURO = 0;   //Referência à coluna de pontuações Ouro
     public static final int PRATA = 1;  //Referência a coluna de pontuações prata
     public static final int BRONZE = 2; //Referência a coluna de prontuações Bronze   
@@ -119,11 +119,11 @@ public class JogoMemoriaCtrl {
             qtdePecasPorImg= 3;
         }
         
+        
        sortearImagensPartida();
        
        preencherTabuleiro(nivel);
        
-       limparTabuleiro();
        
      }
 
