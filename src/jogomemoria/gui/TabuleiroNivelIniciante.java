@@ -197,24 +197,8 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
         add(lblImg33);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void lblImg00MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg00MouseClicked
-       // trocaImg();
-       int idImg = (controle.getTabuleiro()[0][0]).getIdImagem();
-       ImageIcon img00 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
-       getLblImg00().setIcon(img00);
-       if (pecasSelecionadas==0) {
-           pt1 = controle.obterPecaTabuleiro(0,0);
-       } else {
-           if (pecasSelecionadas == 1) {
-               pt2 = controle.obterPecaTabuleiro(0,0);
-               controle.realizarJogada(pt1, pt2);
-           }
-       }
-       
-    }//GEN-LAST:event_lblImg00MouseClicked
-
     
-    public void mostrar(boolean inicioJogo) {
+     public void mostrar(boolean inicioJogo) {
             PecaTabuleiro pctb[][]= controle.getTabuleiro();
             int idImg;
 
@@ -349,6 +333,29 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
             }        
     }
     
+
+    private void lblImg00MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg00MouseClicked
+       // trocaImg();
+       int idImg = (controle.getTabuleiro()[0][0]).getIdImagem();
+       ImageIcon img00 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
+       getLblImg00().setIcon(img00);
+       if (pecasSelecionadas==0) {
+           pt1 = controle.obterPecaTabuleiro(0,0);
+           pecasSelecionadas++;
+       } else {
+           if (pecasSelecionadas == 1) {
+               pt2 = controle.obterPecaTabuleiro(0,0);
+               controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
+           }
+       }
+       
+    }//GEN-LAST:event_lblImg00MouseClicked
+
+    
+   
+    
     
     private void lblImg01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg01MouseClicked
          int idImg = (controle.getTabuleiro()[0][1]).getIdImagem();
@@ -356,10 +363,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg01().setIcon(img01);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(0,1);
+           pecasSelecionadas++;
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(0,1);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg01MouseClicked
@@ -370,10 +380,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg02().setIcon(img02);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(0,2);
+           pecasSelecionadas++;
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(0,2);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg02MouseClicked
@@ -384,10 +397,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg03().setIcon(img03);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(0,3);
+           pecasSelecionadas++;
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(0,3);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg03MouseClicked
@@ -398,10 +414,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg10().setIcon(img10);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(1,0);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(1,0);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg10MouseClicked
@@ -412,10 +431,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg11().setIcon(img11);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(1,1);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(1,1);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg11MouseClicked
@@ -426,10 +448,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg12().setIcon(img12);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(1,2);
+           pecasSelecionadas++;
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(1,2);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+                mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg12MouseClicked
@@ -440,10 +465,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg13().setIcon(img13);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(1,3);
+           pecasSelecionadas++;          
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(1,3);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+                mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg13MouseClicked
@@ -454,10 +482,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg20().setIcon(img20);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(2,0);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(2,0);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+                mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg20MouseClicked
@@ -468,10 +499,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg21().setIcon(img21);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(2,1);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(2,1);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+                mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg21MouseClicked
@@ -482,10 +516,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg22().setIcon(img22);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(2,2);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(2,2);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+                mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg22MouseClicked
@@ -496,10 +533,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg23().setIcon(img23);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(2,3);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(2,3);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg23MouseClicked
@@ -510,10 +550,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg30().setIcon(img30);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(3,0);
+           pecasSelecionadas++;
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(3,0);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg30MouseClicked
@@ -524,10 +567,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg31().setIcon(img31);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(3,1);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(3,1);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg31MouseClicked
@@ -538,10 +584,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg32().setIcon(img32);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(3,2);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(3,2);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg32MouseClicked
@@ -552,10 +601,13 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        getLblImg33().setIcon(img33);
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(3,3);
+           pecasSelecionadas++;           
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(3,3);
                controle.realizarJogada(pt1, pt2);
+               pecasSelecionadas = 0;
+               mostrar(false);
            }
        }
     }//GEN-LAST:event_lblImg33MouseClicked
