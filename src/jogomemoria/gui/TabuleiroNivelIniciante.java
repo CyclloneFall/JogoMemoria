@@ -358,7 +358,7 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
     
     
     private void lblImg01MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg01MouseClicked
-         int idImg = (controle.getTabuleiro()[0][1]).getIdImagem();
+       int idImg = (controle.getTabuleiro()[0][1]).getIdImagem();
        ImageIcon img01 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
        getLblImg01().setIcon(img01);
        if (pecasSelecionadas==0) {
@@ -375,7 +375,7 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
     }//GEN-LAST:event_lblImg01MouseClicked
 
     private void lblImg02MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblImg02MouseClicked
-        int idImg = (controle.getTabuleiro()[0][2]).getIdImagem();
+       int idImg = (controle.getTabuleiro()[0][2]).getIdImagem();
        ImageIcon img02 = new ImageIcon (getClass().getResource("/jogomemoria/gui/img/jm"+idImg+".png"));
        getLblImg02().setIcon(img02);
        if (pecasSelecionadas==0) {
