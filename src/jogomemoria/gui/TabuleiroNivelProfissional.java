@@ -9,6 +9,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import jogomemoria.control.JogoMemoriaCtrl;
+import jogomemoria.gui.snd.Sound;
 import jogomemoria.model.PecaTabuleiro;
 
 /**
@@ -439,10 +440,13 @@ public class TabuleiroNivelProfissional extends javax.swing.JPanel {
             ptSel3 = pt[linha][coluna];
             int result = controle.realizarJogada(ptSel1, ptSel2, ptSel3);
             if (result == controle.JOGADA_CERTA) {
+                  Sound.CERTO.play();
                 JOptionPane.showMessageDialog(this, "MUITO BEM", "resultado da jogada", JOptionPane.INFORMATION_MESSAGE);
             } else if (result == controle.JOGADA_ERRADA) {
+                Sound.ERRO.play();
                 JOptionPane.showMessageDialog(this, "TENTE NOVAMENTE", "resultado da jogada", JOptionPane.INFORMATION_MESSAGE);
             } else if (result == controle.JOGADA_INVALIDA) {
+                Sound.ERRO.play();
                 JOptionPane.showMessageDialog(this, "SE LIGA", "resultado da jogada", JOptionPane.ERROR_MESSAGE);
             }
         qtdeSelecionadas =0;

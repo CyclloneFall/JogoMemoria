@@ -3,6 +3,7 @@ package jogomemoria.control;
 import java.lang.reflect.Modifier;
 import java.sql.Timestamp;
 import java.util.Random;
+import jogomemoria.gui.snd.Sound;
 import jogomemoria.model.PecaTabuleiro;
 //quando usa uma variavel do tipo de outra classe
 
@@ -230,8 +231,11 @@ public class JogoMemoriaCtrl {
                     setPontuacaoAtual(getPontuacaoAtual() + 1);
                     pt1.setVirado(true);
                     pt2.setVirado(true);
+                     Sound.CERTO.play();
                 } else {
+                     Sound.ERRO.play();
                     resultado = JOGADA_INVALIDA;
+                    
                 }
             }
         }
@@ -267,6 +271,7 @@ public class JogoMemoriaCtrl {
                         pt3.setVirado(true);
                     } else {
                         resultado = JOGADA_INVALIDA;
+                       
                     }
                 }
             }

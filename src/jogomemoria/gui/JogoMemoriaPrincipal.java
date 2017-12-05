@@ -8,6 +8,7 @@ package jogomemoria.gui;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import jogomemoria.control.JogoMemoriaCtrl;
+import jogomemoria.gui.snd.Sound;
 import jogomemoria.model.PecaTabuleiro;
 
 /**
@@ -177,6 +178,7 @@ public class JogoMemoriaPrincipal extends javax.swing.JFrame {
         int r = JOptionPane.showConfirmDialog(this, "Pronto????", "Confirme para iniciar", JOptionPane.YES_NO_OPTION);
         if (r == JOptionPane.YES_OPTION)
             mostrarTabuleiro(false);
+         Sound.ABERTURA.play();
         // Substituir  o painel pnlPrincipal2 pelo objeto tni que é do mesmo tipo
     }//GEN-LAST:event_btnIniciarActionPerformed
     

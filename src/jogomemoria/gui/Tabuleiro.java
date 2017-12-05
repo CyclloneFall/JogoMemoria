@@ -38,7 +38,9 @@ public class Tabuleiro extends javax.swing.JPanel {
         lblImgBronze = new javax.swing.JLabel();
         lblRecordeOuro = new javax.swing.JLabel();
         lblRecordePrata = new javax.swing.JLabel();
-        lblRecordeBronze = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setLayout(new java.awt.BorderLayout());
 
@@ -60,27 +62,40 @@ public class Tabuleiro extends javax.swing.JPanel {
 
         lblRecordePrata.setText("jLabel1");
 
-        lblRecordeBronze.setText("jLabel1");
+        jLabel1.setText("jLabel1");
+
+        jLabel2.setFont(new java.awt.Font("Noto Sans", 1, 14)); // NOI18N
+        jLabel2.setText("PONTUAÇÃO ATUAL");
+
+        jLabel3.setText("jLabel3");
 
         javax.swing.GroupLayout infos1Layout = new javax.swing.GroupLayout(infos1);
         infos1.setLayout(infos1Layout);
         infos1Layout.setHorizontalGroup(
             infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(infos1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(infos1Layout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(lblImgPrata, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblImgOuro, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblImgBronze, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(35, 35, 35)
-                        .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(lblRecordeOuro, javax.swing.GroupLayout.DEFAULT_SIZE, 63, Short.MAX_VALUE)
-                            .addComponent(lblRecordePrata, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lblRecordeBronze)))
-                    .addComponent(lblRecordes))
-                .addContainerGap(48, Short.MAX_VALUE))
+                            .addGroup(infos1Layout.createSequentialGroup()
+                                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblImgPrata, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblImgOuro, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblImgBronze, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(35, 35, 35)
+                                .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblRecordeOuro, javax.swing.GroupLayout.DEFAULT_SIZE, 63, Short.MAX_VALUE)
+                                    .addComponent(lblRecordePrata, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jLabel1)))
+                            .addComponent(lblRecordes)))
+                    .addGroup(infos1Layout.createSequentialGroup()
+                        .addGap(58, 58, 58)
+                        .addComponent(jLabel2))
+                    .addGroup(infos1Layout.createSequentialGroup()
+                        .addGap(111, 111, 111)
+                        .addComponent(jLabel3)))
+                .addContainerGap(76, Short.MAX_VALUE))
         );
         infos1Layout.setVerticalGroup(
             infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,12 +113,15 @@ public class Tabuleiro extends javax.swing.JPanel {
                 .addGroup(infos1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(infos1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblImgBronze)
-                        .addContainerGap(18, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, infos1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lblRecordeBronze)
-                        .addGap(60, 60, 60))))
+                        .addComponent(lblImgBronze))
+                    .addGroup(infos1Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(jLabel1)))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         sppTabuleiro.setRightComponent(infos1);
@@ -117,10 +135,12 @@ public class Tabuleiro extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private jogomemoria.gui.Infos infos1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel lblImgBronze;
     private javax.swing.JLabel lblImgOuro;
     private javax.swing.JLabel lblImgPrata;
-    private javax.swing.JLabel lblRecordeBronze;
     private javax.swing.JLabel lblRecordeOuro;
     private javax.swing.JLabel lblRecordePrata;
     private javax.swing.JLabel lblRecordes;

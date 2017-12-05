@@ -7,6 +7,7 @@ package jogomemoria.gui;
 
 import javax.swing.ImageIcon;
 import jogomemoria.control.JogoMemoriaCtrl;
+import jogomemoria.gui.snd.Sound;
 import jogomemoria.model.PecaTabuleiro;
 
 /**
@@ -342,12 +343,14 @@ public class TabuleiroNivelIniciante extends javax.swing.JPanel {
        if (pecasSelecionadas==0) {
            pt1 = controle.obterPecaTabuleiro(0,0);
            pecasSelecionadas++;
+          
        } else {
            if (pecasSelecionadas == 1) {
                pt2 = controle.obterPecaTabuleiro(0,0);
                controle.realizarJogada(pt1, pt2);
                pecasSelecionadas = 0;
                mostrar(false);
+               
            }
        }
        
